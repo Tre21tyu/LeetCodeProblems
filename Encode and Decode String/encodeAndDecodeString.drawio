@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" modified="2024-03-04T02:50:54.429Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="WKnvTwVIKVqsnLxxzF4T" version="24.0.1" type="device">
+  <diagram name="Page-1" id="CNJ-lDMeO2HgdtpzU3am">
+    <mxGraphModel dx="579" dy="374" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="l0snnBtpdBcn_zgMs9yW-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="l0snnBtpdBcn_zgMs9yW-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370.33333333333337" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l0snnBtpdBcn_zgMs9yW-13" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l0snnBtpdBcn_zgMs9yW-3">
+          <mxGeometry x="-0.1523" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l0snnBtpdBcn_zgMs9yW-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="l0snnBtpdBcn_zgMs9yW-1" target="l0snnBtpdBcn_zgMs9yW-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="550.5333251953125" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="150" />
+              <mxPoint x="260" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l0snnBtpdBcn_zgMs9yW-14" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l0snnBtpdBcn_zgMs9yW-12">
+          <mxGeometry x="-0.8624" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l0snnBtpdBcn_zgMs9yW-1" value="Words left in input list?" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="330" y="110" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l0snnBtpdBcn_zgMs9yW-2" value="Encode" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF2F05;" vertex="1" parent="1">
+          <mxGeometry x="260" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l0snnBtpdBcn_zgMs9yW-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l0snnBtpdBcn_zgMs9yW-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l0snnBtpdBcn_zgMs9yW-5" value="Append to the front of the word, a delimiter - #&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Append to the front of the word, before the delimiter, the length of the word.&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="305" y="240" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="l0snnBtpdBcn_zgMs9yW-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="l0snnBtpdBcn_zgMs9yW-10" target="l0snnBtpdBcn_zgMs9yW-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="450" />
+              <mxPoint x="480" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l0snnBtpdBcn_zgMs9yW-10" value="Add that word to one string called &#39;res&#39;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="330" y="410" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l0snnBtpdBcn_zgMs9yW-16" value="return res" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="330" y="540" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l0snnBtpdBcn_zgMs9yW-17" value="Decode" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#13FF03;" vertex="1" parent="1">
+          <mxGeometry x="520" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l0snnBtpdBcn_zgMs9yW-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l0snnBtpdBcn_zgMs9yW-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l0snnBtpdBcn_zgMs9yW-18" value="Are their any words left in the string?" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="590" y="110" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l0snnBtpdBcn_zgMs9yW-21" value="Get number at beginning of next word in res string" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="585" y="240" width="90" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
